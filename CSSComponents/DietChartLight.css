@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+:root{
+    --primary-color: #0F9A8E;
+    --secondary-color: #F1ECEC;;
+    --recipe-box-color: #2F2F37;
+    --text-color: #000;
+}
+
+body{
+    background-color: white;
+    font-family: 'Outfit';
+    font-style: normal;
+}
+
+section{
+    height: 80vh;
+}
+
+/* Bmi section */
+.bmi{
+    width: 410px;
+    height: 463px;
+    position: absolute;
+    left: 122px;
+    top: 161px;
+    background: var(--primary-color);
+    border-radius: 54px;
+}
+
+.bmi-text{
+    position: absolute;
+    left: 8.5rem;
+    top: 15px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: var(--text-color);
+}
+
+.bmi-common{
+    background: var(--secondary-color);
+    border-radius: 12px;
+}
+
+.gender{
+    width: 144px;
+    height: 118px;
+    position: absolute;
+    left: 2rem;
+    top: 5rem;
+}
+.height{
+    width: 134px;
+    height: 273px;
+    position: absolute;
+    right: 2rem;
+    top: 5rem;
+}
+
+.weight{
+    width: 144px;
+    height: 118px;
+    position: absolute;
+    left: 2rem;
+    bottom: 6.5rem;
+}
+
+.bmi-sub{
+    width: 141px;
+    height: 34px;
+    position: absolute;
+    left: 2rem;
+    bottom: 2.5rem;
+}
+
+.box-height{
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: var(--text-color);
+}
+
+.bmi-block-text{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+.color{
+    color: white;
+}
+
+/* Analysis Section */
+
+.analysis{
+    position: absolute;
+    width: 696px;
+    height: 365px;
+    left: 622px;
+    top: 183px;
+}
+
+.analysis-text{
+    position: absolute;
+    /* width: 180px;
+    height: 25px; */
+    left: 2rem;
+    top: 1rem;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.analysis-btn{
+    position: absolute;
+    width: 101px;
+    height: 38px;
+    left: 15rem;
+    top: 1.5rem;
+    background: var(--recipe-box-color);
+    border-radius: 10px;
+}
+
+.calories-text{
+    position: absolute;
+    right: 8rem;
+    top: 1rem;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.calories-btn{
+    position: absolute;
+    left: 36.5rem;
+    top: 1.5rem;
+}
+
+/* Left Section */
+.breakfast{
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    left: 2rem;
+    top: 6rem;
+    background: var(--primary-color);
+}
+
+.lunch{
+    position: absolute;
+    left: 2rem;
+    top: 12.2rem;
+}
+
+.dinner{
+    position: absolute;
+    left: 2rem;
+    top: 18rem;
+}
+
+.icon{
+    position: absolute;
+    top: 0.23em;
+    left: 0.1em;
+    font-size: 2.25em;
+    color: #FFFFFF;
+}
+
+.fa-burger{
+    left: 0.27em;
+}
+
+.fa-utensils{
+    left: 0.3em;
+}
+
+.breakfast-text{
+    width: 67px;
+    height: 39px;
+    position: absolute;
+    left: 6rem;
+    top: 6rem;
+}
+
+.lunch-text{
+    position: absolute;
+    left: 6rem;
+    top: 12rem;
+}
+
+.dinner-text{
+    position: absolute;
+    left: 6rem;
+    top: 18rem;
+}
+
+.bf-text{
+    position: absolute;
+    left: 0.1rem;
+    top: 0.01em;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.bf-big-text {
+    width: 67px;
+    height: 21px;
+    position: absolute;
+    left: 0.1em;
+    top: 0.75em;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    letter-spacing: 0em;
+}
+
+.calorie-value{
+    width: 81px;
+    height: 29px;
+    position: absolute;
+    left: 9rem;
+    top: 0.5rem;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.line{
+    width: 313px;
+    height: 0px;
+    position: absolute;
+    left: -4.05rem;
+    top: 5rem;
+    border: 1px solid var(--recipe-box-color);
+}
+
+/* Right Section */
+
+.r-breakfast {
+    position: absolute;
+    left: 23rem;
+    top: 6rem;
+}
+
+.r-lunch {
+    position: absolute;
+    left: 23rem;
+    top: 12.2rem;
+}
+
+.r-dinner {
+    position: absolute;
+    left: 23rem;
+    top: 18rem;
+}
+
+.r-breakfast-text {
+    position: absolute;
+    left: 27rem;
+    top: 6rem;
+}
+
+.r-lunch-text {
+    position: absolute;
+    left: 27rem;
+    top: 12rem;
+}
+
+.r-dinner-text{
+    position: absolute;
+    left: 27rem;
+    top: 18rem;
+}
+
+/* Recipes Section */
+
+.recipes{
+    position: absolute;
+    top: 2em;
+}
+
+.recipes-txt{
+    width: 123px;
+    height: 38px;
+    position: absolute;
+    left: 7rem;
+    top: 42.2rem;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+    /* identical to box height */
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.recipes-block{
+    position: absolute;
+    left: 52rem;
+    top: 43.4rem;
+}
+
+.calories-txt{
+    position: absolute;
+    left: 63.5rem;
+    top: 42.2rem;
+}
+
+.calories-block{
+    position: absolute;
+    left: 77rem;
+    top: 43.4rem;
+}
+
+.food-txt{
+    position: absolute;
+    left: 9.7rem;
+    top: 47.4rem;
+}
+
+.meal-txt{
+    position: absolute;
+    left: 20.7rem;
+    top: 47.4rem;
+}
+
+.calorie-txt{
+    position: absolute;
+    left: 31.7rem;
+    top: 47.4rem;
+}
+
+.protien-txt{
+    position: absolute;
+    left: 42.7rem;
+    top: 47.4rem;
+}
+
+.carb-txt{
+    position: absolute;
+    left: 53.7rem;
+    top: 47.4rem;
+}
+
+.list-block{
+    width: 798px;
+    height: 40px;
+    position: absolute;
+    left: 7.3rem;
+    top: 50.5rem;
+    background: var(--recipe-box-color);
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.list-1{
+    position: absolute;
+    top: 55.5rem;
+}
+
+.list-2{
+    position: absolute;
+    top: 60.5rem;
+}
+
+.rectangle{
+    width: 282px;
+    height: 194px;
+    position: absolute;
+    left: 63.5rem;
+    top: 50.5rem;
+    background: var(--recipe-box-color);
+}
