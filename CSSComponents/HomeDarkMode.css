@@ -1,0 +1,184 @@
+.hero-element {
+  background-color: #0d655b;
+  height: 100vh;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  display: flex !important;
+  justify-content: space-around;
+  flex-basis: auto;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.nav-item {
+  width: 9rem;
+}
+
+.first-div {
+  background-image: url(../food\ 1.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 115vh;
+}
+
+.nav-ele {
+  font-family: "Outfit", sans-serif;
+}
+
+.nav-font {
+  font-family: "Outfit", sans-serif;
+  margin-top: 0;
+  margin-left: 2rem;
+}
+
+.dot-ele {
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 3rem;
+  color: #ddf800;
+}
+
+.sp-nav:hover {
+  color: #ddf800;
+}
+
+.hero-text {
+  color: white;
+  font-family: "Outfit", sans-serif;
+  font-size: 6rem;
+  width: 45rem;
+  padding: 3rem 0 0 5rem;
+}
+
+.btn-cg {
+  -webkit-border-radius: 20.5;
+  -moz-border-radius: 20.5;
+  border-radius: 20.5px;
+  -webkit-box-shadow: 6px 6px 21px #131212;
+  -moz-box-shadow: 6px 6px 21px #131212;
+  box-shadow: 6px 6px 21px #131212;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #0e695e;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  stroke: none;
+  border: none;
+}
+
+.but {
+  padding: 3rem 0 0 5rem;
+}
+
+.btn-cg:hover {
+  text-decoration: none;
+}
+
+.fc {
+  background-color: #0d655b !important;
+  border: none !important;
+}
+
+.custom {
+  border-radius: 20.5em !important;
+}
+
+.search-icon {
+  color: black;
+}
+
+.search-btn {
+  background-color: #ddf800 !important;
+  border-radius: 20.5px;
+}
+
+.secondPage {
+  background-color: #ffffff;
+  height: 100vh;
+}
+
+.secPageSub {
+  color: #0d655b;
+  font-size: 21px;
+  letter-spacing: 10px;
+  font-family: "Outfit", sans-serif;
+}
+
+#thirdPage {
+  background-color: #0d655b;
+  height: 110vh;
+}
+
+.thirdPageText {
+  color: white;
+  font-size: 35px;
+  padding-top: 4rem;
+  letter-spacing: 15px;
+}
+
+.location {
+  margin-left: 18%;
+  margin-right: 50%;
+  width: 55vw;
+}
+
+.contact-text {
+  color: white;
+}
+
+.form-style {
+  background-color: #3a847d !important;
+  border: 0;
+  height: 3rem;
+  border-radius: 12px !important;
+  width: 50%;
+}
+
+.form-style2 {
+  background-color: #3a847d !important;
+  border: 0;
+  height: 3rem;
+  border-radius: 12px !important;
+  width: 75%;
+}
+
+.form-style-btn {
+  border: 0;
+  height: 3rem;
+  border-radius: 12px !important;
+  width: fit-content;
+}
+
+.form-submit {
+  font-family: "Outfit", sans-serif;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.contact-div {
+  text-align: right;
+  width: 100vw;
+}
+
+.contact-img {
+  width: 90%;
+  position: relative;
+  bottom: 90px;
+}
+
+.links {
+  background-color: white;
+  height: 8rem;
+  text-align: center;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1;
+}
