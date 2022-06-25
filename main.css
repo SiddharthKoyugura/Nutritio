@@ -51,7 +51,7 @@ body {
   font-family: "Outfit", sans-serif;
   font-size: 6rem;
   width: 45rem;
-  padding: 8rem 0 0 5rem;
+  padding: 3rem 0 0 5rem;
 }
 
 .btn-cg {
@@ -111,7 +111,7 @@ body {
 
 #thirdPage {
   background-color: #0b403a;
-  height: 100vh;
+  height: 110vh;
 }
 
 .thirdPageText {
@@ -122,7 +122,59 @@ body {
 }
 
 .location {
-  height: 500px;
+  margin-left: 18%;
+  margin-right: 50%;
+  width: 55vw;
+}
+
+.contact-text {
   color: white;
-  z-index: 0;
+}
+
+.form-style {
+  background-color: #175751 !important;
+  border: 0;
+  height: 3rem;
+  border-radius: 12px !important;
+  width: 50%;
+}
+
+.form-style2 {
+  background-color: #175751 !important;
+  border: 0;
+  height: 3rem;
+  border-radius: 12px !important;
+  width: 75%;
+}
+
+.form-style-btn {
+  border: 0;
+  height: 3rem;
+  border-radius: 12px !important;
+  width: fit-content;
+}
+
+.form-submit {
+  font-family: "Outfit", sans-serif;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.contact-div {
+  text-align: right;
+  width: 100vw;
+}
+
+.contact-img {
+  width: 90%;
+  position: relative;
+  bottom: 90px;
+}
+
+.links {
+  color: white;
+  background-color: #0f0f13;
+  height: 8rem;
+  text-align: center;
 }
