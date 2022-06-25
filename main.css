@@ -28,7 +28,7 @@
 .nav-font {
   font-family: "Outfit", sans-serif;
   margin-top: 0;
-  margin-left: 9.5rem;
+  margin-left: 2rem;
 }
 
 .dot-ele {
@@ -45,9 +45,9 @@
 .hero-text {
   color: white;
   font-family: "Outfit", sans-serif;
-  font-size: 7rem;
-  width: 55rem;
-  padding: 4rem 0 0 13rem;
+  font-size: 6rem;
+  width: 45rem;
+  padding: 4rem 0 0 5rem;
 }
 
 .btn-cg {
@@ -68,9 +68,27 @@
 }
 
 .but {
-  padding: 3rem 0 0 13rem;
+  padding: 3rem 0 0 5rem;
 }
 
 .btn-cg:hover {
   text-decoration: none;
+}
+
+.fc {
+  background-color: #0b403a !important;
+  border: none !important;
+}
+
+.custom {
+  border-radius: 20.5em !important;
+}
+
+.search-icon {
+  color: black;
+}
+
+.search-btn {
+  background-color: #ddf800 !important;
+  border-radius: 20.5px;
 }
