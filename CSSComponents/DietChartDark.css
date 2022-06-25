@@ -219,6 +219,11 @@ section{
     letter-spacing: 0em;
 }
 
+.cal-height{
+    width: 103px;
+}
+
+
 .calorie-value{
     width: 81px;
     height: 29px;
