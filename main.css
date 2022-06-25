@@ -9,6 +9,10 @@
   flex-basis: auto;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .nav-item {
   width: 9rem;
 }
@@ -47,7 +51,7 @@
   font-family: "Outfit", sans-serif;
   font-size: 6rem;
   width: 45rem;
-  padding: 4rem 0 0 5rem;
+  padding: 8rem 0 0 5rem;
 }
 
 .btn-cg {
@@ -91,4 +95,34 @@
 .search-btn {
   background-color: #ddf800 !important;
   border-radius: 20.5px;
+}
+
+.secondPage {
+  background-color: #0f0f13;
+  height: 100vh;
+}
+
+.secPageSub {
+  color: #0d655b;
+  font-size: 21px;
+  letter-spacing: 10px;
+  font-family: "Outfit", sans-serif;
+}
+
+#thirdPage {
+  background-color: #0b403a;
+  height: 100vh;
+}
+
+.thirdPageText {
+  color: white;
+  font-size: 35px;
+  padding-top: 4rem;
+  letter-spacing: 15px;
+}
+
+.location {
+  height: 500px;
+  color: white;
+  z-index: 0;
 }
