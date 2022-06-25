@@ -1,3 +1,76 @@
-body{
-    background-color: green;
+.hero-element {
+  background-color: #0b403a;
+  height: 100vh;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  display: flex !important;
+  justify-content: space-around;
+  flex-basis: auto;
+}
+
+.nav-item {
+  width: 9rem;
+}
+
+.first-div {
+  background-image: url(/Nutritio/food\ 1.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 115vh;
+}
+
+.nav-ele {
+  font-family: "Outfit", sans-serif;
+}
+
+.nav-font {
+  font-family: "Outfit", sans-serif;
+  margin-top: 0;
+  margin-left: 9.5rem;
+}
+
+.dot-ele {
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 3rem;
+  color: #ddf800;
+}
+
+.sp-nav:hover {
+  color: #ddf800;
+}
+
+.hero-text {
+  color: white;
+  font-family: "Outfit", sans-serif;
+  font-size: 7rem;
+  width: 55rem;
+  padding: 4rem 0 0 13rem;
+}
+
+.btn-cg {
+  -webkit-border-radius: 20.5;
+  -moz-border-radius: 20.5;
+  border-radius: 20.5px;
+  -webkit-box-shadow: 6px 6px 21px #131212;
+  -moz-box-shadow: 6px 6px 21px #131212;
+  box-shadow: 6px 6px 21px #131212;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #0e695e;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  stroke: none;
+  border: none;
+}
+
+.but {
+  padding: 3rem 0 0 13rem;
+}
+
+.btn-cg:hover {
+  text-decoration: none;
 }
